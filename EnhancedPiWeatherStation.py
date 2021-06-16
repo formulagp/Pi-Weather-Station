@@ -1,5 +1,5 @@
 ### Jay Authement ###
-### CS-499  ###
+### Version: [1.1.0] ###
 ### Enhanced Pi Weather Station  ###
 
 # Libraries required for the program to run correctly #
