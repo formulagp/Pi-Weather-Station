@@ -2,7 +2,7 @@
 
 ## About the Project
 
-The Pi-Weather-Station program was originally developed for my CS-350 class at Southern New Hampshire University to show how embedded systems work and how to manipulate hardware through the use of software. The weather station program is written in Python and uses a Raspberry Pi 4 (although a Raspberry Pi 3 is perfectly fine as well) along with the GrovePi Starter Kit from Dexter Industries. Once the GrovePi interface is connected to the Pi's GPIO, the sensor hardware is available to connect and create the fully functional weather station!
+The Pi-Weather-Station program was originally developed for my CS-350 class at Southern New Hampshire University to show how embedded systems work and how to manipulate hardware through the use of software. The program has since evolved with new features that were added for my CS-499 class, to display my comprehension of software design and structure. The weather station program is written in Python and uses a Raspberry Pi 4 (although a Raspberry Pi 3 is perfectly fine as well) along with the GrovePi Starter Kit from Dexter Industries. Once the GrovePi interface is connected to the Pi's GPIO, the sensor hardware is available to connect and create the fully functional weather station!
 
 ## Motivation
 
