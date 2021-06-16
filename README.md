@@ -36,7 +36,7 @@ Once you are finished and ready for the program to stop running, simple use ctl-
 
 ## Changelog
 
-[1.1.0]
+[1.1.0] - 2021-6-9
 
 Version 1.1.0 was created as a Pi Weather Station enhancement for my CS - 499 class to demonstrate the concept of software design and engineering. The first changes made include updating the variables to reflect best practices for variable and method naming. Specific changes are below:
 - GrLed --> greenLED
@@ -46,6 +46,7 @@ Version 1.1.0 was created as a Pi Weather Station enhancement for my CS - 499 cl
 - blue --> tempOutputPort
 
 Following this, two new methods were created for version 1.1.0, the startup and shutdown methods. The startup method will run when the program is initially started, which will utilize the LCD screen from the GrovePi Kit to display a startup message and also blink the green LED twice. The shutdown method will run when the user presses ctr-c at any time and displays a shutdown message to the LCD while blinking the red LED twice. After the message is displayed, the program will exit by calling the sys.exit() function.
-[1.0.0]
 
-Original project upload from CS-350 class. Project includes everything 
+[1.0.0] - 2021-5-22
+
+Original project upload from CS-350 class. Project includes all code necessary to get the user up and running, collecting weather data.
