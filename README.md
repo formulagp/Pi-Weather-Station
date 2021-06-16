@@ -10,7 +10,7 @@ This project start off as a final assignment for CS-350, but has now evolved int
 
 ## Installation
 
-To install this software, you simply have to run the Python code provided on the Raspberry Pi of your choice, with the operating system of your choice. In this project, Raspberry Pi OS was used along with provided Thonny IDE.
+To install this software, you simply have to run the Python code provided on the Raspberry Pi of your choice, with the operating system of your choice. In this project, Raspberry Pi OS was used along with provided Thonny IDE. The GrovePi kit is also required with the correct hardware connections(as noted in the Getting Started section) for the program to function properly. 
 
 ## Getting Started
 
@@ -34,3 +34,18 @@ The Enhanced Pi Weather Station will run on it's own constantly collecting data 
 
 Once you are finished and ready for the program to stop running, simple use ctl-c and the program will run the shutdown sequence telling the user it is shutting down on the LCD  and illuminating the red LED
 
+## Changelog
+
+[1.1.0]
+
+Version 1.1.0 was created as a Pi Weather Station enhancement for my CS - 499 class to demonstrate the concept of software design and engineering. The first changes made include updating the variables to reflect best practices for variable and method naming. Specific changes are below:
+- GrLed --> greenLED
+- BlLed --> blueLED
+- RdLed --> redLED
+- tempSensor --> tempSensorPort
+- blue --> tempOutputPort
+
+Following this, two new methods were created for version 1.1.0, the startup and shutdown methods. The startup method will run when the program is initially started, which will utilize the LCD screen from the GrovePi Kit to display a startup message and also blink the green LED twice. The shutdown method will run when the user presses ctr-c at any time and displays a shutdown message to the LCD while blinking the red LED twice. After the message is displayed, the program will exit by calling the sys.exit() function.
+[1.0.0]
+
+Original project upload from CS-350 class. Project includes everything 
