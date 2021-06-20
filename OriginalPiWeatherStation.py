@@ -1,6 +1,6 @@
 ### Jay Authement ###
-### CS-350 ###
-### FinalProject1 ###
+### Version: [1.0.0] ###
+### Original Pi Weather Station  ###
 
 import time
 import math
